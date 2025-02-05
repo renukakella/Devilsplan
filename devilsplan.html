@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #000;
+        }
+        * {
+            font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+            color: #fff;
+        }
+        .img1{
+            background-image: url("https://occ-0-5261-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABX4clXKjf0Ou6VgOQoiyOdIzpPGIqBAx63MHjNgy0E9e3tEdb3kBlc3Qzh4jwG0--aK2mLwjeSpd_3xapBNHSJkd-79E7w_1o9B7.jpg?r=577");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+        .logo{
+            height: 50px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .topright{
+            background-color: red;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: 15px;
+        }
+        .container{
+            position: relative;
+            top: 150px;
+            left: 50px;
+            max-width: 600px;
+        }
+        .img2{
+            height: 150px;
+            width: 500px;
+            margin-bottom: 20px;
+        }
+        h2{
+            font-size: 3em;
+            margin: 0;
+        }
+        .buttons{
+            margin-top: 20px;
+        }
+        .button{
+            background-color: #e50914;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .top{
+            display: flex;
+         justify-content: flex-end;
+         align-items: center;
+         position: absolute;
+         top: 20px;
+         right: 20px;
+         font-size: 1.2em;
+         color: #fff; 
+        }
+        .button.secondary{
+            background-color: #6d6d6d;
+        }
+        @media(max-width: 768px){
+            .img1{
+                background-image: url('https://occ-0-5261-3663.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABX5hpIda18pXtGMdjTSy9QYUtWicdBM4lsRLt4nplmVanhlFywniNbnkdxUGTXMSUHnO_LO5MzHOF1-ZtUVJLeivPFeU6jhF2yrg.jpg?r=fbf&quot;');
+            }
+            .container{
+                position: relative;
+                top: 300px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="img1">
+        <div class="navbar">
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png" />
+            <div class="top">
+                <button class="topright">Join Now</button>
+                <button class="topright">Sign In</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <img class="img2" src="https://occ-0-5261-3663.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABTi0odsI6GyHAVHWDN3A4Og8qQrigYpeM8HSpNV5x52LR0NxBe4G3pSSYh3ijA3VC3O_crKDp5ANAqSAu3xFVNYdjCgdaIheF_VA0SJM2m_L6UOXh4geTtVHAv-PQM5q8nAd-veedi1ML8HtAHq34RO3WwJ5q0hfIp1OdKpK2oygHJIis2txVg.png?r=f2c"/>
+            <h2>The Devil's Plan</h2>
+            <p>2023 | Maturity Rating:U/A 13+ | 1 Season | Reality TV</p>
+            <p>12 contestants face off in games of wit, strategy and wisdom over 6<br> nights and 7 days. Who will be crowned the ultimate victor?</p>
+            <p>Starring:Kang Ji-yeong, Kyuhyun, Kim Ha-rin<br> Creators:Jeong Jong-yeon</p>
+            
+            <div class="buttons">
+                <button class="button">Play</button>
+                <button class="button secondary">More Info</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
